@@ -1,0 +1,386 @@
+/*
+Template Name: Recycling
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************center****************/
+.center_h1lilil span{
+width:55px;
+height:55px;
+line-height:55px; 
+ }
+.center_h2 h1{
+font-size:90px; 
+ }
+.center_h {
+  background-image: url(../img/1.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+  position: relative;
+  z-index: 2;
+}
+.center_h2{
+border-top:1px solid #4c4b4b;
+ }
+.center_hm {
+  background: none !important;
+  position: relative;
+  z-index: 2;
+}
+.center_hm::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(16,20,26,0.55);
+  z-index: 1;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.center_hm > * {
+  position: relative;
+  z-index: 2;
+}
+#neon-bg {
+  z-index: 0 !important;
+}
+/*********************center_end****************/
+
+
+/*********************shed****************/
+#sched{
+background-image: url(../img/2.jpg);
+background-position: center; 
+    background-size: cover;
+ }
+/*********************shed_end****************/
+
+
+/*********************gallery****************/
+.homei1i2 ul li a {
+background:#fff;
+width: 40px;
+height: 40px;
+line-height: 40px;
+display: block;
+color:#54be73;
+text-align:center;
+}
+#gallery .modal-dialog {
+max-width: 770px;
+}
+#gallery .modal-dialog{
+min-width:770px; 
+ }
+.homei1i1 img{
+min-height:180px; 
+ }
+.homei1i2{
+padding-top:32%;
+display:none; 
+ }
+.homei1:hover .homei1i2{
+display:block; 
+ }
+
+/*********************gallery_end****************/
+
+
+@media screen and (max-width : 767px){
+#gallery .modal-dialog{
+min-width:90%; 
+ }
+.center_hm {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.center_h1lil{
+text-align:center;
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.center_h1lilir{
+margin-top:10px; 
+ }
+.center_h1r {
+text-align:center!important;
+margin-top:15px; 
+ }
+.center_h2 h1 {
+font-size: 50px;
+}
+.center_h2 br {
+display:none;
+}
+.center_h2 p {
+text-align:left;
+}
+.sched_1i{
+margin-top:15px;
+}
+.mission_1r{
+text-align:center; 
+ }
+.mission_1r p{
+text-align:left; 
+ }
+.mission_1r {
+padding:15px!important; 
+ }
+.homei1i2 {
+padding-top: 28%;
+}
+.center_h2 {
+padding-top:20px!important;
+margin-top:20px!important; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.center_h1lilil span {
+width: 35px;
+height: 35px;
+line-height: 35px;
+font-size:18px!important;
+}
+.center_h1r .button{
+padding-left:10px;
+padding-right:10px;
+font-size:14px;
+}
+.mission_1l img{
+min-height:680px; 
+ }
+.mission_1r {
+padding:15px!important; 
+ }
+.mission_1r p{
+font-size:15px;
+ }
+.homei1i2 {
+padding-top: 55%;
+}
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.center_h1lilil span {
+width: 45px;
+height: 45px;
+line-height: 45px;
+font-size:22px!important;
+}
+.center_h1r .button{
+padding-left:20px;
+padding-right:20px;
+font-size:14px;
+}
+.mission_1l img{
+min-height:680px; 
+ }
+.mission_1r {
+padding:30px!important; 
+ }
+.homei1i2 {
+padding-top: 45%;
+}
+ }
+@media (min-width:1201px) and (max-width:1360px) {
+.mission_1r {
+padding:30px!important; 
+ }
+.mission_1l img{
+min-height:680px; 
+ }
+ }
+
+/* Neon Theme Variables */
+:root {
+  --neon-green: #39ff14;
+  --neon-blue: #00eaff;
+  --neon-pink: #ff00de;
+  --neon-purple: #a259ff;
+  --neon-yellow: #fff700;
+  --neon-bg-dark: #0a0a23;
+  --neon-white: #fff;
+}
+
+body, html {
+  background: #10141a !important;
+  color: #f3f3f3 !important;
+}
+
+section, .container-xl, .container-xl-1, .center_om, .about_h2i2, .serv_h1i1, .blog_h1i2, .about_h2i, .serv_h1i, .team_1m2, .exep_2i, .contact_2l, .contact_2r, .faq_1l, .faq_1r1, .overview_1l, .center_h1lil, .center_h1lilir, .center_h1r, .footer_1i, .footer_b1l, .navbar, .navbar-collapse, .navbar-nav, .navbar-brand, .shadow_box, .bg-light, .bg-white, .bg_green, .bg_back, .bg-dark {
+  background: #181c24 !important;
+  color: #f3f3f3 !important;
+  border-radius: 32px !important;
+}
+
+input, textarea, .form-control {
+  background: #232837 !important;
+  color: #fff !important;
+  border: 1.5px solid var(--neon-blue) !important;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, li, span, label, .text-white, .text-light, .text-dark, .text-black, .text-muted {
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+.button, .button_1, .button_2 {
+  background: linear-gradient(90deg, var(--neon-green) 0%, var(--neon-blue) 100%);
+  color: #10141a !important;
+  border-radius: 32px !important;
+  border: 1.5px solid var(--neon-green);
+  box-shadow: 0 0 8px 1px var(--neon-green), 0 0 16px 2px var(--neon-blue);
+  font-family: 'Orbitron', 'Poppins', Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 4px var(--neon-green);
+  transition: background 0.3s, box-shadow 0.3s, color 0.3s;
+}
+.button:hover, .button_1:hover, .button_2:hover {
+  background: linear-gradient(90deg, var(--neon-blue) 0%, var(--neon-green) 100%);
+  color: #fff !important;
+  box-shadow: 0 0 16px 4px var(--neon-blue), 0 0 32px 8px var(--neon-green);
+  border-color: var(--neon-blue);
+}
+
+::-webkit-input-placeholder { color: #b0b0b0 !important; }
+::-moz-placeholder { color: #b0b0b0 !important; }
+:-ms-input-placeholder { color: #b0b0b0 !important; }
+::placeholder { color: #b0b0b0 !important; }
+
+hr, .line {
+  background: #232837 !important;
+  border-color: #232837 !important;
+}
+
+/* Remove any remaining light backgrounds */
+.bg-white, .bg-light, .bg_green, .bg_back {
+  background: #181c24 !important;
+  color: #fff !important;
+}
+
+/* Neon Glow for Icons */
+.fa, .fa-solid, .fa-brands {
+  color: var(--neon-green) !important;
+  text-shadow: 0 0 4px var(--neon-green), 0 0 8px var(--neon-blue);
+  transition: color 0.3s, text-shadow 0.3s;
+}
+.fa:hover, .fa-solid:hover, .fa-brands:hover {
+  color: var(--neon-blue) !important;
+  text-shadow: 0 0 8px var(--neon-blue), 0 0 16px var(--neon-green);
+}
+
+/* Neon Navbar and Footer */
+#header, #footer, #footer_b {
+  background: rgba(10,10,35,0.97) !important;
+  border-top: 1.5px solid var(--neon-blue);
+  border-bottom: 1.5px solid var(--neon-green);
+  box-shadow: 0 0 12px 2px var(--neon-blue);
+}
+
+/* Neon Input Fields */
+input:focus, textarea:focus, .form-control:focus {
+  border: 1.5px solid var(--neon-green) !important;
+  box-shadow: 0 0 8px var(--neon-green);
+}
+
+/* Neon Section Headings */
+.about_h1 h3, .about_h1 span, .about_h1 h6 {
+  color: var(--neon-blue) !important;
+  text-shadow: 0 0 4px var(--neon-blue), 0 0 8px var(--neon-green);
+}
+
+/* Neon Card Content */
+.neon-card h5 a, .neon-card h5, .neon-card p, .neon-card ul, .neon-card li {
+  color: var(--neon-white) !important;
+  text-shadow: none;
+}
+
+/* Readability: ensure text contrast */
+.neon-card, .about_h2i, .serv_h1i, .team_1m2, .exep_2i, .contact_2l, .contact_2r, .faq_1l, .faq_1r1, .overview_1l, .center_om, .about_h2m, .about_h2l, .about_h2r {
+  color: #f3f3f3 !important;
+}
+
+/* Flying word 3D animation */
+.flying-word {
+  display: inline-block;
+  transition: transform 0.5s cubic-bezier(.23,1.01,.32,1), text-shadow 0.5s;
+  will-change: transform, text-shadow;
+  cursor: pointer;
+  perspective: 400px;
+}
+.flying-word:hover {
+  transform: translateY(-18px) rotateX(35deg) scale(1.18) skewY(-8deg);
+  text-shadow: 0 8px 32px var(--neon-blue), 0 0 16px var(--neon-green);
+  color: var(--neon-blue);
+}
+
+/* Floating 3D recycling icon */
+.floating-3d-icon {
+  position: absolute;
+  z-index: 2;
+  width: 64px;
+  height: 64px;
+  top: 2.5rem;
+  right: 2.5rem;
+  animation: float3d 3.5s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 12px var(--neon-green));
+}
+@keyframes float3d {
+  0% { transform: translateY(0) rotateZ(0deg) scale(1); }
+  100% { transform: translateY(-18px) rotateZ(12deg) scale(1.08); }
+}
+
+/* Section spacing for smoothness */
+section {
+  margin-bottom: 2.5rem;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+/* Responsive tweaks for smoothness */
+@media (max-width: 767px) {
+  h1, h2, h3 {
+    font-size: 2rem !important;
+  }
+  .neon-card, .about_h2i, .serv_h1i, .team_1m2, .exep_2i, .contact_2l, .contact_2r, .faq_1l, .faq_1r1, .overview_1l, .center_om, .about_h2m, .about_h2l, .about_h2r {
+    padding: 1.2rem 0.7rem !important;
+    border-radius: 18px !important;
+  }
+  section {
+    border-radius: 18px;
+  }
+}
+
+.dropdown-menu, .dropdown-menu.show, .dropdown-menu.drop_1, .dropdown-menu-dark, .dropdown-item, .dropdown-menu .dropdown-item {
+  background: #181c24 !important;
+  color: #fff !important;
+  border-radius: 18px !important;
+  border: 1px solid #232837 !important;
+  box-shadow: none !important;
+  z-index: 9999 !important;
+}
+.dropdown-menu .dropdown-item {
+  color: #fff !important;
+}
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item.active {
+  background: #232837 !important;
+  color: var(--neon-green) !important;
+}
+
+.accordion-body, .accordion-body p {
+  background: #fff !important;
+  color: #181818 !important;
+  border-radius: 16px !important;
+}
+
+
+
